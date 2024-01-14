@@ -103,7 +103,7 @@ public class Task {
 
         Schema shortInfoSchema = Schema.builder()
                 .addStringField("userId")
-                .addStringField("gameId")
+                .addStringField("userName")
                 .build();
 
         Schema gameSchema = Schema.builder()
